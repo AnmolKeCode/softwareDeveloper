@@ -1,0 +1,196 @@
+@media only screen and (max-width:1024px) {
+
+    .gridBox {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        transform: translateY(-30px);
+
+    }
+
+    .skillsOfMe .skills h2 {
+        font-weight: 700;
+        letter-spacing: 1px;
+        font-family: Montserrat, sans-serif;
+        font-size: 2.3rem;
+    }
+
+
+    .AboutCV {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    /* section seven  */
+    .softwareEng {
+        height: auto;
+    }
+
+    .softwareEng .TypeOfSoftware {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .softwareEng .TypeOfSoftware .soft:nth-child(2) {
+        position: relative;
+        top: 0;
+
+    }
+
+    .softwareEng .TypeOfSoftware .soft:nth-child(3) {
+        width: 210%;
+        position: relative;
+        top: 0;
+    }
+
+    /* section eight  */
+
+    .AboutDeveloper {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0 9%;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .firstPage .img {
+        max-width: 80%;
+    }
+
+    .firstPage {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .firstPage .text {
+        padding-top: 2rem;
+    }
+
+    .firstPage .text button {
+        width: 70%;
+    }
+
+    .firstPage .text button {
+        width: 220px;
+    }
+
+    .skillsOfMe {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    /* section six  */
+    .pricing {
+        gap: 2rem;
+    }
+
+    .pricing .box-2 {
+        flex-direction: column;
+        /* text-align: center; */
+        width: fit-content;
+        margin: 0 auto;
+    }
+
+    .pricing .box-2 .bx-check {
+        display: block;
+        line-height: 3rem;
+    }
+
+    .pricing .box-3 a {
+        padding: 15px 30px;
+    }
+
+    /* section seven  */
+
+    .softwareEng .text {
+        font-size: 2rem;
+        margin-right: calc(((100% - 1140px) / 2) + 280px);
+        margin-left: calc(((100% - 1140px) / 2) + 280px);
+        text-align: center;
+        margin: 0 auto 2rem;
+
+    }
+
+    .softwareEng .TypeOfSoftware {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .softwareEng .TypeOfSoftware .soft:nth-child(3) {
+        width: 100%;
+        position: relative;
+        top: 0;
+    }
+
+    /* footer  */
+    footer {
+        flex-direction: column;
+        text-align: center;
+        line-height: 2rem;
+
+    }
+}
+
+@media only screen and (max-width:580px) {
+
+    /* section four  */
+    .AboutCV .boxCV .boxF {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    /* section five */
+    .exp .littleText h2 {
+        font-size: 3rem;
+    }
+
+    .exp .infoBox {
+        flex-direction: column;
+        gap: 0rem;
+    }
+
+    .exp .infoBox .box1 {
+        width: 100%;
+    }
+
+    .exp .infoBox .box2 {
+        width: 100%;
+    }
+
+    .exp .btn a {
+        padding: 15px 30px;
+    }
+
+    /* section eight  */
+    .AboutDeveloper .DevInfo {
+        text-align: center;
+    }
+  
+    .AboutDeveloper .DevInfo .imgName .img {
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .AboutDeveloper .DevInfo .imgName {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:425px) {
+
+    html {
+        font-size: 90%;
+    }
+
+    .firstPage .img {
+        max-width: 90%;
+    }
+
+    .firstPage .text button {
+        width: 220px;
+    }
+
+    .gridBox {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+
+}
